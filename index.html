@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Navbar</title>
+</head>
+<body>
+    <div class="container">
+        <div id="logindiv">
+            <div class="loginCard">
+                <div class="password-heading">
+                    <h3>PASSWORD</h3>
+                    <p id="close" onclick="closeform()">X</p>
+                </div>
+                <div class="email">
+                    <input type="text" id="emailInput" placeholder="Enter your email or phokne number">
+                </div>
+                <div class="password">
+                    <input id="passInput" type="text" placeholder="Enter your password">
+                    <p class="forget-pass">Forget password?</p>
+                </div>
+                <button id="login-btn" onclick="loadCard()">LOG IN</button>
+                <p class="signup">Don't have an account? <span>sign up</span></p>
+                <div class="social-media">
+                    <p>or, log in with</p>
+                    <div class="social-icons">
+                        <div class="google">
+                            <i class="fa-brands fa-google"></i>
+                            <p>Google</p>
+                        </div>
+                        <div class="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                            <p>facebook</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- navbar -->
+        <div class="nav">
+        <div class="upper">
+            <div class="right">
+                <a href="">Become a Seller</a>
+                <a href="">Daraz Affiliate Program</a>
+                <a href="">Help & Support</a>
+                <a href="">Daraz Logistics Partner</a>
+            </div>
+            <div class="left">
+                <a href="">Save More on App</a>
+            </div>
+        </div>
+
+        <div class="lower">
+            <img src="images/images.png" alt="">
+            <input style="color: black;" type="text" placeholder="Search in Daraz">
+            <a onclick="loginPage()" id="loginText">Login</a>
+            <a href="">Signup</a>
+            <a href="">En</a>
+            <a href="">Card</a>
+        </div>
+        </div>
+
+        <!-- hero-section -->
+         <div id="hero-section">
+            <div id="main-section">
+                
+            </div>
+         </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
